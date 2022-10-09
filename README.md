@@ -2,6 +2,6 @@
 
 Sorting the PDF Files working using Vue Draggable
 
-## Sponsors
+## Developed By
 
-FGX Studios
+Wandumi Munandi Sichali
