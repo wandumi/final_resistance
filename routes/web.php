@@ -21,8 +21,7 @@ Route::get('/sort', function () {
     return view('sort');
 });
 
-
-Auth::routes();//['register' => false]
+Auth::routes(['register' => false]);//
 
 Route::get('/home', 'HomeController@index')->name('home');
 

@@ -1,7 +1,7 @@
 <!-- Sidebar -->
 <ul class="navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url('/home') }}">
-        <div class="sidebar-brand-text mx-3">Resilient</div>
+        <div class="sidebar-brand-text mx-3">MunandiMedia</div>
         {{--            <div class="sidebar-brand-icon">--}}
         {{--                <img src="{{ asset("admin/img/logo/logo2.png") }}">--}}
         {{--            </div>--}}
@@ -15,7 +15,7 @@
     </li>
 
     @can('user.index')
-    
+
         <hr class="sidebar-divider">
         <div class="sidebar-heading">
             Corporate
@@ -118,8 +118,8 @@
         </li>
 
     @endcan
-    
-    
+
+
     <hr class="sidebar-divider">
     <div class="sidebar-heading">
         Marketing
@@ -134,8 +134,8 @@
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header"></h6>
                 <a class="collapse-item" href="{{ url("properties") }}">View All</a>
-               
-               
+
+
             </div>
         </div>
     </li>
@@ -146,7 +146,7 @@
             <span>Portifolio Banner</span>
         </a>
     </li>
-   
+
     <li class="nav-item active">
         <a class="nav-link" href="{{ url('provinces') }}">
             <i class="fas fa-fw fa-flag"></i>
@@ -182,9 +182,9 @@
         </a>
     </li>
 
-   
 
-   
+
+
 
 
     @can('user.index')
@@ -192,7 +192,7 @@
         <div class="sidebar-heading">
             Settings
         </div>
-        
+
         <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePage" aria-expanded="true"
             aria-controls="collapsePage">
@@ -201,13 +201,13 @@
             </a>
             <div id="collapsePage" class="collapse" aria-labelledby="headingPage" data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
-                   
+
                     <a class="collapse-item" href="{{ url('users') }}">View All</a>
-                
+
                 </div>
             </div>
         </li>
-        
+
     @endcan
 
 
